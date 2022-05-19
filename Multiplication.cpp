@@ -94,7 +94,10 @@ pair <vector <Num>, pair<int, int>> readNumber() {
 int main() {
 	calcRev();
 	calcZ();
+	cout << "Hello! This program multiplies numbers containing less than 230 000 digits." << endl;
+	cout << "Enter the first number: " << endl;
 	auto a = readNumber();
+	cout << "Enter the second number: " << endl;
 	auto b = readNumber();
 	auto fa = fft(a.first, false);
 	auto fb = fft(b.first, false);
@@ -117,6 +120,7 @@ int main() {
 			res[i] = cur % 10;
 		}
 	}
+	cout << "Result: " << endl;
 	if ((a.second.second * b.second.second < 0) && (started)) {
 		cout << "-";
 	}
