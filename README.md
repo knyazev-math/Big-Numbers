@@ -1,3 +1,3 @@
 # Big-Numbers
 
-Multiplies numbers containing less than 230000 digits using the Fourrier transformation.
+Multiplies numbers containing less than 200000 digits using the Fourier transform.
